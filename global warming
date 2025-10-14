@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Warming</title>
+</head>
+<body> 
+    bakground-color:#ADD8E6;
+    <h1>Global Warming</h1>
+    <p>
+        Global warming refers to the long-term rise in Earth's average surface temperature due to human activities, primarily the release of greenhouse gases such as carbon dioxide.
+    </p>
+    <p>
+        It leads to climate changes such as rising sea levels, more extreme weather events, and impacts on wildlife and ecosystems.
+    </p>
+    <p>Learn more on 
+        <a href="https://en.wikipedia.org/wiki/Global_warming" target="_blank" rel="noopener noreferrer">
+            Wikipedia
+        </a>.
+    </p>
+</body>
+</html>
