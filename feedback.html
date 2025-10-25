@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Website Feedback</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Name:</label><br>
+            <input type="text" name="name"><br><br>
+            <label>Email:</label><br>
+            <input type="email" name="email"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Feedback Details</legend>
+            <label>How do you rate our website?</label><br>
+            <input type="radio" name="rating" value="excellent"> Excellent<br>
+            <input type="radio" name="rating" value="good"> Good<br>
+            <input type="radio" name="rating" value="average"> Average<br>
+            <input type="radio" name="rating" value="poor"> Poor<br><br>
+
+            <label>Comments:</label><br>
+            <textarea rows="4" cols="40" name="comments"></textarea><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit Feedback">
+    </form>
+</body>
+</html>
